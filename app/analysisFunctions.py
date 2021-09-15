@@ -1,5 +1,5 @@
 import textblob, nltk, syllables, math
-nltk.download('popular')
+nltk.download('punkt')
 
 failure_message = "Sorry, we could not provide this statistic"
 

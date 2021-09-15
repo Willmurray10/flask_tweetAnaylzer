@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    div {text-align:center;}
+</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+</head>
+<body>
+    <div>
+        <p>Here are the results:</p>
+        <p>Average Likes: {{ avgLikes }}</p>
+        <p>Average Retweets:  {{ avgRetweets }}</p>
+        <p>Average Words: {{avgWords}} </p>
+        <p>Average Characters: {{ avgChars }}</p>
+        <p>Average Polarity:  {{ avgPolarity }}</p>
+        <p>Average Subjectivity:  {{ avgSubjectivity }}</p>
+        <p>FKGL(readability) Score: {{ fkglScore }}</p>
+        <p>SMOG(readability) Score: {{ smogScore }}</p>
+        <img src={{ url_for('static', filename='image.png') }}/>
+    </div>
+    <div>
+        <form>
+            <input type="button" value="Run another analysis!" onclick="history.back()">
+        </form>
+    </div>
+</body>
+</html>

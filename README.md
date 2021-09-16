@@ -7,4 +7,4 @@
 * flask run
 
 # Demo
-* [Project Video Demonstration] (https://www.youtube.com/watch?v=-RakLTfBEKE)
+* [Project Video Demonstration](https://www.youtube.com/watch?v=-RakLTfBEKE)
